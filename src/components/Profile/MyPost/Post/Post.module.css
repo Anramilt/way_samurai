@@ -1,0 +1,13 @@
+.content{
+    grid-area: c;
+    background-color: rgba(209, 206, 211, 0.781);
+  }
+
+  .post {
+    color:  #8224E3;
+  }
+
+  .post img{
+    width: 70px;
+    border-radius: 80px;
+  }

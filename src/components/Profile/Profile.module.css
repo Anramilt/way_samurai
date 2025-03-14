@@ -1,0 +1,8 @@
+.content{
+    grid-area: c;
+    background-color: rgba(209, 206, 211, 0.781);
+  }
+
+  .post {
+    color:  #8224E3;
+  }
