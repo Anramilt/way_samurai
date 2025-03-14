@@ -1,9 +1,15 @@
 
 .nav {
+    padding: 20px;
     grid-area: n;
     background-color: rgba(106, 71, 138, 0.795);
   }
 
-  .item{
+  .item a{
     color:rgba(33, 14, 34, 0.795);
+    text-decoration: none;
+  }
+
+  .item a.activeLink{
+    color:#8224E3;
   }
