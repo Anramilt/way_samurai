@@ -11,6 +11,8 @@ import Settings from './components/Settings/Settings';
 
 
 const App = () => {
+
+
   return (
     <BrowserRouter>
       <div className='app-wrapper'>
@@ -18,7 +20,7 @@ const App = () => {
         <Navbar />
         <div className='app-wraper-content'>
           <Routes>
-            <Route path="/profile" element={<Profile />} />
+            <Route path="/profile" element={ <Profile posts={props.posts}/> } />
             <Route path="/dialogs" element={<Dialogs />} />
             <Route path="/news" element={<News />} />
             <Route path="/music" element={<Music />} />
