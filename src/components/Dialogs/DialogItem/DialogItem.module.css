@@ -1,0 +1,22 @@
+
+.dialog {
+    display: flex;
+    align-items: center;  /* Выровнять элементы по центру */
+    gap: 10px; /* Отступ между аватаркой и именем */
+    padding: 10px;
+    width: 100%;
+}
+
+.avatar {
+    width: 40px;  /* Размер аватарки */
+    height: 40px;
+    border-radius: 50%; /* Делаем круглой */
+    object-fit: cover; /* Обрезка, чтобы картинка не деформировалась */
+    border: 2px solid #c59edf; /* Небольшая рамка */
+}
+
+.dialogName {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+}

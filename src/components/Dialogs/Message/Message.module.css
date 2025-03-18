@@ -1,0 +1,30 @@
+
+.message {
+    max-width: 60%;
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-size: 14px;
+    word-wrap: break-word;
+    display: block; /* ОБЯЗАТЕЛЬНО: чтобы сообщения не вставали в одну строку */
+    margin-bottom: 5px; /* Добавляем отступ между сообщениями */
+}
+
+/* Сообщения пользователя (выравниваются вправо) */
+.user {
+    align-self: flex-end;
+    background-color: #750fbe;
+    color: white;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 15px;
+    text-align: left;
+}
+
+/* Сообщения собеседника (выравниваются влево) */
+.friend {
+    align-self: flex-start;
+    background-color: #ffffff;
+    color: #333;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 15px;
+    text-align: left;
+}

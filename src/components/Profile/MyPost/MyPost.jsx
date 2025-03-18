@@ -3,10 +3,8 @@ import classes from './MyPost.module.css'
 import Post from './Post/Post';
 
 const MyPost = (props) => {
-    //let posts = props.posts
-    // 
 
-    let postsElement = props.posts.map(p => <Post message={p.message} likesCount={p.likesCount}/>)
+    let postsElement = props.state.posts.map(p => <Post message={p.message} likesCount={p.likesCount}/>)
 
     return (
         <div className={classes.content}>

@@ -1,10 +1,13 @@
 import React from 'react';
-import classes from './../Dialogs.module.css';
+import classes from './Message.module.css';
 
 
-const Message = (props) => {
+const Message = ({message, isUser}) => {
     return (
-        <div className={classes.message}>{props.message}</div>
+        <div className={`${classes.message} ${isUser ? classes.user : classes.friend}`}>
+            {message}
+        </div>
+        /*<div className={classes.message}>{props.message}</div>*/
     );
 }
 
