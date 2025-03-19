@@ -48,3 +48,92 @@
     flex-direction: column;
     gap: 10px;
 }
+
+
+
+.textareaContainer{
+    display: flex;
+    align-items: center;
+}
+.textareaContainer textarea {
+    margin-top: 10px;
+    flex: 1;
+    padding: 10px;
+    width: 90%;
+    min-height: 50px;
+    max-height: 150px;
+    resize: none;
+    border-radius: 20px;
+    border: 2px solid #c59edf;
+    outline: none;
+    font-size: 16px;
+    background: #f5f0ff;
+    transition: 0.3s;
+}
+
+
+.textareaContainer textarea:focus {
+    border-color: #8224E3;
+    background: white;
+}
+
+.textareaContainer button {
+    border: none;
+    background-color: #8224E3;
+    color: white;
+    font-size: 16px;
+    padding: 12px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    height: 50px;
+    margin-left: 10px;
+}
+/*
+.textareaContainer button {
+    border: none;
+    gap: 20px;
+    background-color: #8224E3;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+
+.textareaContainer button:hover {
+    background-color: #6a0dad;
+    transform: scale(1.05);
+}
+
+.textareaContainer button:active {
+    transform: scale(0.95);
+}
+
+
+/*
+.textareaContainer textarea {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding: 10px;
+    width: 85%;
+    min-height: 50px;
+    max-height: 200px;
+    resize: none;
+    border-radius: 20px;
+    border: 2px solid #c59edf;
+    gap: 20px;
+    outline: none;
+    font-size: 16px;
+    background: #f5f0ff;
+    transition: 0.3s;
+}*/
